@@ -1,0 +1,65 @@
+.navbar-toggle {
+	border: none;
+	background: transparent !important;	
+}
+
+.navbar-toggle:hover {
+	background: transparent !important;
+
+}
+
+.navbar-toggle .icon-bar {
+	width: 22px;
+	transition: all .5s;
+}
+
+.navbar-toggle .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggle .mid-bar {
+	opacity: 0;
+}
+
+.navbar-toggle .bot-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%; 
+}
+
+.navbar-toggle.collapsed .top-bar {
+		transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .mid-bar {
+		opacity: 1;
+}
+
+.navbar-toggle.collapsed .bot-bar {
+		transform: rotate(0);
+}
+
+#navigator {
+	margin-bottom: 0;
+}
+
+.vegans {
+	height: 250px;
+	max-height: 250px;
+}
+
+.navbar-toggle .icon-bar {
+	width: 22px;
+	transition: all .5s;
+}
+
+#view-recipe {
+	width: 100%;
+	margin-top: 5px;
+	/*margin-bottom: 10px;*/
+}
+
+footer {
+	height: 50px;
+	background-color: grey;
+}

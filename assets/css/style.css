@@ -1,0 +1,59 @@
+body {
+	
+}
+
+#sect1 {
+	height: 100vh;
+	background-color: red;
+	background-image: url('assets/img/bg-img.jpg');
+}
+
+.navbar-toggle {
+	border: none;
+	background: transparent !important;	
+}
+
+.navbar-toggle:hover {
+	background: transparent !important;
+
+}
+
+.navbar-toggle .icon-bar {
+	width: 22px;
+	transition: all .5s;
+}
+
+.navbar-toggle .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggle .mid-bar {
+	opacity: 0;
+}
+
+.navbar-toggle .bot-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%; 
+}
+
+.navbar-toggle.collapsed .top-bar {
+		transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .mid-bar {
+		opacity: 1;
+}
+
+.navbar-toggle.collapsed .bot-bar {
+		transform: rotate(0);
+}
+
+#start-btn {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#para {
+	background: gray;
+}
