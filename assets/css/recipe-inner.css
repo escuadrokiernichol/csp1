@@ -3,8 +3,9 @@
 	padding: 0;
 }
 
+
 body {
-	background-image: url("img/home-bg.jpg");
+	background-image: url("img/bg-meat.jpg");
 	height: 100%;
 	background-position: center;
     background-repeat: no-repeat;
@@ -54,32 +55,30 @@ body {
 }
 
 
-
-@media only screen and (max-width: 400px) {
-
-#view-recipe {
-/*	margin: 0 auto;
-	width: 50%;*/
-}
+#meatlover-cont {
+	/*padding-top: 20px;*/
 }
 
+/*#bg {
+	background-image: url("img/bg-meat.jpg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-.vegans {
-	/*height: 500px;*/
-	/*width: 100%;*/
+.cont-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin: 30px;
+	padding-top: 15px;
 }
-}
 
-
-
-@media only screen and (min-width: 961px) {
-
-.vegans {
-	/*height: 1000px;*/
-	/*width: 100%;*/
-}
+.cont-bg {
 
 }
 
+footer {
+	background-color: grey;
+}

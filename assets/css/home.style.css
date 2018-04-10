@@ -1,3 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+/*	background-image: url("img/bg-img.jpg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
 .navbar-toggle {
 	border: none;
 	background: transparent !important;	
@@ -43,9 +58,21 @@
 	margin-bottom: 0;
 }
 
-.vegans {
-	height: 250px;
-	max-height: 250px;
+#welcome-carousel {
+		margin: 0;
+		height: 200px;
+		max-height: 200px;
+		width: 100%;
+}
+
+/*.vegans {
+		height: 100%;
+		width: 100%;
+}
+*/
+#carousel-sliders {
+	height: 100%;
+	width: 100%;
 }
 
 .navbar-toggle .icon-bar {
@@ -54,12 +81,38 @@
 }
 
 #view-recipe {
-	width: 100%;
-	margin-top: 5px;
+/*	width: 100%;
+	margin-top: 5px;*/
 	/*margin-bottom: 10px;*/
 }
 
 footer {
 	height: 50px;
 	background-color: grey;
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+}
+
+@media only screen and (min-width: 961px) {
+
+#welcome-carousel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 500px;
+	max-height: 500px;
+
+}
+
+.carousel-inner > .item > img {
+	height: 100%;
+	width: 100%;
+}
+
 }
