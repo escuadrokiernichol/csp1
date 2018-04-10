@@ -60,6 +60,7 @@ body {
 
 #welcome-carousel {
 		margin: 0;
+		padding: 0;
 		height: 200px;
 		max-height: 200px;
 		width: 100%;
@@ -86,6 +87,11 @@ body {
 	/*margin-bottom: 10px;*/
 }
 
+.col-xs-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 footer {
 	height: 50px;
 	background-color: grey;
@@ -101,6 +107,8 @@ footer {
 }
 
 @media only screen and (min-width: 961px) {
+
+
 
 #welcome-carousel {
 	margin-top: 10px;
