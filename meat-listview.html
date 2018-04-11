@@ -6,22 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<!-- external CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/recipe-inner.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/meat-listview.css">
 
 
 	<!-- external CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-	<title></title>
+	<title>Meat Haven!</title>
 
 </head>
 <body>
 
 <header>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="navigator">  
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="top" class="navbar-brand">Sitename</a>
+				<a href="home.html" class="navbar-brand"><i class="fas fa-utensils"></i> FoodBook</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger-menu" aria-expanded="false">
 					<span class="sr-only">Toggle Navigation</span>
 					<span class="icon-bar top-bar"></span>
@@ -32,12 +32,12 @@
 			<!-- collection of nav items -->
 			<div class="collapse navbar-collapse" id="burger-menu">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Vegan</a></li>
-					<li><a href="#">Meat Lover</a></li>
-					<li><a href="#">Desserts</a></li>			
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li><a href="home.html" class="hoverable">Home</a></li>
+					<li><a href="vegan-listview.html">Vegan</a></li>
+					<li><a href="meat-listview.html">Meat Lover</a></li>
+					<li><a href="pasta-listview.html">Pasta</a></li>			
+					<li><a href="about.html.html">About Us</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>	
@@ -45,7 +45,7 @@
 </header>
 <div id="bg">
 	<div class="jumbotron text-center">
-		<h1>Meat Lover's Section</h1>
+		<h1>Meat Haven!</h1>
 	</div>
  </div> 
 	<div id="meatlover-cont" class="container">
@@ -53,7 +53,7 @@
 			<div class="col-md-3 cont-bg">
 				<div>
 				<img src="assets/css/img/bg-meat.jpg" class="img-responsive">
-				<a href="#"><strong>Special Menu</strong></a>
+				<a href="recipe.html"><strong>Special Menu</strong></a>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -146,13 +146,15 @@
 		</div>
 	</div>
 </div>
-<!-- 	<footer class="text-right">	
-		<span>&copy;</span>
-		<span>Facebook</span>
-		<span>Twitter</span>
-		<span>Instagram</span>
-		<span>Youtube</span>
-	</footer> --> <!-- endFooter -->
+
+<footer class="text-center">	
+		<span>&copy; Owner 2018</span>
+		<p>Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asses/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+		<span><a href="#"><i class="fab fa-facebook-f" id="social-media-1"></i></a></span>
+		<span><a href="#"><i class="fab fa-twitter" id="social-media-2"></i></a></span>
+		<span><a href="#"><i class="fab fa-instagram" id="social-media-3"></i></a></span>
+		<span><a href="#"><i class="fab fa-youtube-square" id="social-media-4"></i></a><span>
+	</footer> <!-- endFooter -->
 
 
 	<!-- bootstrap jQuery -->
@@ -160,6 +162,9 @@
 
 	<!-- include all compiled plugins needed -->
 	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- insert font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 </body>
 </html>

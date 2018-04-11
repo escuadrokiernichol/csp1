@@ -3,8 +3,16 @@
 	padding: 0;
 }
 
+
 body {
-	padding-top: 60px;
+	background-image: url("img/bg-vegi.jpg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding-top: 60px;
 }
 
 .navbar-toggle {
@@ -48,20 +56,27 @@ body {
 		transform: rotate(0);
 }
 
+#meatlover-cont {
 
-#about-pad .container {
-	padding-bottom: 20px;
 }
 
-#about-img-1 {
-	height: 200px;
-	width: 200px;
-	border-radius: 150px;
-	border: 5px solid black;
-/*	position: relative;
-	top: 100px;
-	left: 100px;*/
+
+
+.cont-bg {
+	padding-top: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	/*margin-bottom: 15px;*/
 }
+
+
+.jumbotron{
+    position: relative;
+    padding:0 !important;
+    margin-top:30px !important;
+    margin-bottom: 30 !important;
+}
+
 
 footer {
 	background-color: black;

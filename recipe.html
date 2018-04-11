@@ -12,7 +12,7 @@
 	<!-- external CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-	<title></title>
+	<title>Recipe</title>
 
 </head>
 <body>
@@ -31,11 +31,11 @@
 			<div class="collapse navbar-collapse" id="burger-menu">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="home.html" class="hoverable">Home</a></li>
-					<li><a href="#">Vegan</a></li>
-					<li><a href="innerrecipe.html">Meat Lover</a></li>
-					<li><a href="#">Desserts</a></li>			
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li><a href="vegan-listview.html">Vegan</a></li>
+					<li><a href="meat-listview.html">Meat Lover</a></li>
+					<li><a href="pasta-listview.html">Pasta</a></li>			
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>	
@@ -47,6 +47,14 @@
 				<div class="col-md-6">
 				
 				<img src="assets/css/img/quarter-burger.jpg" class="img-responsive">
+						<h2>Rate Menu!</h2>
+		<a href=""><h3 id="star-rating">
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+		</h3></a>
 				</div>				
 				<div class="col-md-6">
 					<h3>Ingredients</h3>
@@ -86,15 +94,16 @@
 			</div>
 		</div>
 
+		<hr>
 
-	<h3><span class="glyphicon glyphicon-comment"></span>Comment:</h3>
+	<h3><span class="glyphicon glyphicon-comment" id="comment-link"></span>Comment:</h3>
 	<div class="well">
 		<div class="media">
 			<div class="media-left">
 				<img src="assets/css/img/pug.jpg" alt="user" class="user-dp">
 			</div>
 			<div class="media-body">
-				<a href="#">Juan Dela Cruz</a>
+				<a href="#">Juan Dela Cruz</a><br>
 				<a href="#">April 10, 2018</a>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -113,15 +122,17 @@
 				<img src="assets/css/img/burger.jpg" alt="user" alt="user" class="user-dp">
 			</div>
 			<div class="media-body">
-			<a href="#">Alejandro</a>
+			<a href="#">Alejandro</a><br>
 			<a href="#">April 11, 2018</a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<p id="comment-rating">
 			<span class="glyphicon glyphicon-star-empty"></span>
 			<span class="glyphicon glyphicon-star-empty"></span>
 			<span class="glyphicon glyphicon-star-empty"></span>
 			<span class="glyphicon glyphicon-star-empty"></span>
 			<span class="glyphicon glyphicon-star-empty"></span><br>
+			</p>
 			<a href="#">reply</a>
 			</div>
 		</div>
@@ -149,7 +160,7 @@
 							<label for="user-comment">Comment</label>
 							<textarea class="form-control" placeholder="Comment..." id="user-comment" required=""></textarea>
 						</div>
-						<button type="button" class="btn">Submit</button>
+						<button type="submit" class="btn">Submit</button>
 					</form>
 				</div>				
 			</div>

@@ -3,10 +3,6 @@
 	padding: 0;
 }
 
-body {
-	padding-top: 60px;
-}
-
 .navbar-toggle {
 	border: none;
 	background: transparent !important;	
@@ -46,21 +42,6 @@ body {
 
 .navbar-toggle.collapsed .bot-bar {
 		transform: rotate(0);
-}
-
-
-#about-pad .container {
-	padding-bottom: 20px;
-}
-
-#about-img-1 {
-	height: 200px;
-	width: 200px;
-	border-radius: 150px;
-	border: 5px solid black;
-/*	position: relative;
-	top: 100px;
-	left: 100px;*/
 }
 
 footer {

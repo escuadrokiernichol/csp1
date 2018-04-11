@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;*/
+    padding-top: 51px;
 }
 
 .navbar-toggle {
@@ -54,22 +55,16 @@ body {
 		transform: rotate(0);
 }
 
-#navigator {
-	margin-bottom: 0;
-}
 
 
 
-#lowerbody {
-	margin: 15px;
-}
 
 
 #welcome-carousel {
 		margin: 0;
 		padding: 0;
-		height: 200px;
-		max-height: 200px;
+		height: 400px;
+		max-height: 400px;
 		width: 100%;
 }
 
@@ -95,9 +90,9 @@ body {
 }
 
 
-footer {
-	height: 50px;
-	background-color: grey;
+footer#footer {
+	background-color: black;
+	color: grey;
 }
 
 
@@ -108,9 +103,7 @@ footer {
 
 @media only screen and (min-width: 401px) and (max-width: 767) {
 
-#welcome-carousel {
-	margin-top: 10px;
-	margin-bottom: 10px;
+#welcome-carousel .carousel .slide {
 	height: 800px;
 	max-height: 800px;
 }
@@ -125,18 +118,16 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-#welcome-carousel {
-	margin-top: 10px;
-	margin-bottom: 10px;
+#welcome-carousel .carousel .slide {
 	height: 500px;
 	max-height: 500px;
 
 }
 
-.carousel-inner > .item > img {
+/*.carousel-inner > .item > img {
 	height: 100%;
 	width: 100%;
-}
+}*/
 
 #vegetarian {
 
