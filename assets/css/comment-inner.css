@@ -20,3 +20,31 @@
 	height: 100%;
 	width: 100%;
 }*/
+
+
+
+/*#carou-fix .container {
+	padding: 0;
+}
+
+#carou-fix > .col-md-6 {
+	padding: 0;
+}*/
+
+#welcome-carousel-1,
+#welcome-carousel-2,
+#welcome-carousel-3,
+#welcome-carousel-4 {
+	float: left;
+	/*width: 100%;*/
+/*	margin: 0;
+	padding: 0;*/
+	width: 701px;
+	/*width: 100%;*/
+}
+
+#carousel-sliders {
+	/*width: 630px;*/
+	height: 100%;
+	width: 100%;
+}

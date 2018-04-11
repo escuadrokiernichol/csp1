@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
+
 	<!-- external CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/recipe.css">
 
@@ -15,10 +16,10 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-inverse" id="navigator">  
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="navigator">  
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="top" class="navbar-brand">Sitename</a>
+				<a href="home.html" class="navbar-brand"><i class="fas fa-utensils"></i> FoodBook</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger-menu" aria-expanded="false">
 					<span class="sr-only">Toggle Navigation</span>
 					<span class="icon-bar top-bar"></span>
@@ -39,7 +40,7 @@
 			</div>
 		</div>	
 	</nav>
-	<div class="well" id="well-cont">
+
 		<h3 class="recipe-inner-title">Quarter Pound Burger</h3>
 		<div class="container-fluid recipe-img">
 			<div class="row">
@@ -84,13 +85,83 @@
 				</div>	
 			</div>
 		</div>
-	</div> <!-- endWell -->
-	<footer id="footer" class="text-right">	
-		<span>&copy;</span>
-		<span>Facebook</span>
-		<span>Twitter</span>
-		<span>Instagram</span>
-		<span>Youtube</span>
+
+
+	<h3><span class="glyphicon glyphicon-comment"></span>Comment:</h3>
+	<div class="well">
+		<div class="media">
+			<div class="media-left">
+				<img src="assets/css/img/pug.jpg" alt="user" class="user-dp">
+			</div>
+			<div class="media-body">
+				<a href="#">Juan Dela Cruz</a>
+				<a href="#">April 10, 2018</a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span><br>
+				<a href="#">reply</a>
+			</div>
+		</div>
+	</div>
+	<div class="well">	
+		<div class="media">
+			<div class="media-left">
+				<img src="assets/css/img/burger.jpg" alt="user" alt="user" class="user-dp">
+			</div>
+			<div class="media-body">
+			<a href="#">Alejandro</a>
+			<a href="#">April 11, 2018</a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span>
+			<span class="glyphicon glyphicon-star-empty"></span><br>
+			<a href="#">reply</a>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+
+	<h3>Leave a comment</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut </p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="well">
+					<form>
+						<div class="form-group">
+							<label for="user-name">Name</label>
+							<input type="text" class="form-control" id="user-name" placeholder="Enter you name" required="">
+						</div>
+						<div class="form-group">
+							<label for="user-email">Email</label>
+							<input type="email" class="form-control" id="user-email" placeholder="Email Address" required="">
+						</div>
+						<div class="form-group">
+							<label for="user-comment">Comment</label>
+							<textarea class="form-control" placeholder="Comment..." id="user-comment" required=""></textarea>
+						</div>
+						<button type="button" class="btn">Submit</button>
+					</form>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<footer class="text-center">	
+		<span>&copy; Owner 2018</span>
+		<p>Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asses/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+		<span><a href="#"><i class="fab fa-facebook-f" id="social-media-1"></i></a></span>
+		<span><a href="#"><i class="fab fa-twitter" id="social-media-2"></i></a></span>
+		<span><a href="#"><i class="fab fa-instagram" id="social-media-3"></i></a></span>
+		<span><a href="#"><i class="fab fa-youtube-square" id="social-media-4"></i></a><span>
 	</footer> <!-- endFooter -->
 
 	<!-- bootstrap jQuery -->
@@ -98,5 +169,8 @@
 
 	<!-- include all compiled plugins needed -->
 	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- insert font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </body>
 </html>

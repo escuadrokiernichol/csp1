@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 body {
@@ -58,6 +58,13 @@ body {
 	margin-bottom: 0;
 }
 
+
+
+#lowerbody {
+	margin: 15px;
+}
+
+
 #welcome-carousel {
 		margin: 0;
 		padding: 0;
@@ -87,10 +94,6 @@ body {
 	/*margin-bottom: 10px;*/
 }
 
-.col-xs-12 {
-	padding-left: 0;
-	padding-right: 0;
-}
 
 footer {
 	height: 50px;
@@ -98,17 +101,29 @@ footer {
 }
 
 
-
-
-
 @media only screen and (max-width: 400px) {
-
 
 }
 
-@media only screen and (min-width: 961px) {
+
+@media only screen and (min-width: 401px) and (max-width: 767) {
+
+#welcome-carousel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 800px;
+	max-height: 800px;
+}
+
+.carousel-inner > .item > img {
+/*	height: 100%;
+	width: 100%;*/
+}
+
+}
 
 
+@media only screen and (min-width: 768px) {
 
 #welcome-carousel {
 	margin-top: 10px;
@@ -121,6 +136,10 @@ footer {
 .carousel-inner > .item > img {
 	height: 100%;
 	width: 100%;
+}
+
+#vegetarian {
+
 }
 
 }
