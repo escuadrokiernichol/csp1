@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<!-- external CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact-us.css">
 
 	<!-- external CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -46,25 +46,45 @@
 				<form>
 					<div class="form-group">
 						<label for="user-name">Name</label>
-						<input type="text" class="form-control" name="user-name" id="user-name">
+						<input type="text" class="form-control" name="user-name" id="user-name" required="">
 					</div>
 					<div class="form-group">
 						<label for="user-email">Email</label>
-						<input type="email" name="user-email" class="form-control" id="user-email">
+						<input type="email" name="user-email" class="form-control" id="user-email" required="">
 					</div>
 					<div class="form-group">
-						<label for="user-number">Name</label>
+						<label for="user-number">Telephone</label>
 						<input type="text" class="form-control" name="user-number" id="user-number">
 					</div>
 					<div class="form">
 						<label id="user-message">Message</label>
-						<textarea class="form-control" name="user-message" id="user-message"></textarea>
+						<textarea class="form-control" name="user-message" id="user-message" required=""></textarea>
 					</div>
-					<button type="button" class="btn">Send Message</button>
+					<button type="submit" class="btn">Send Message</button>
 				</form>
 			</div>
 			<div class="col-md-6">
 				<h3>Social Media</h3>
+				<div id="map">
+					<script>
+					function myMap() {
+					var mapCanvas = document.getElementById("map");
+					var mapOptions = 
+					{
+					    center: new google.maps.LatLng(14.6328, 121.0438), 
+					    zoom: 20
+					    // center: philippines 
+					};
+					var map = new google.maps.Map(mapCanvas, mapOptions);
+					
+					var marker = new google.maps.Marker({
+	          			  position: Caswynn,
+	          			  // map: map
+	          			  title: Caswynn
+	        		});
+					}
+					</script>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -117,6 +137,8 @@
 
 
  	<!-- insert Google API for maps -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<!-- 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD82iMfHh8l8Hv8sE6zrSuTTSd5HCp_7tA&callback=initMap"
+ 	type="text/javascript"></script> -->
+ 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD82iMfHh8l8Hv8sE6zrSuTTSd5HCp_7tA&callback=myMap"></script>
  </body>
  </html>

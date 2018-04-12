@@ -73,6 +73,13 @@ body {
 
 
 footer {
+	position: fixed;
+    bottom: 0;
 	background-color: black;
+	color: grey;
+	width: 100%;
+}
+
+footer a {
 	color: grey;
 }

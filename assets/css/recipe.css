@@ -44,14 +44,18 @@ body {
 }
 
 
-.recipe-img > .row > img {
-	width: 50%;
-	/*margin-bottom: 15px;*/
+/*.recipe-img > .row > img {
+	width: 100%;
+	margin-bottom: 15px;
 
 }
-
+*/
 .recipe-inner-title {
 	margin-top: 0;
+}
+
+h5#star-rating > .checked {
+	color: orange;
 }
 
 #well-cont {
@@ -67,11 +71,15 @@ body {
 	height: 100px;
 }
 
-/*footer > .fab {
-	font-size: 50px;
-}
-*/
+
 footer {
+/*	position: fixed;
+    bottom: 0;*/
 	background-color: black;
+/*	color: grey;
+	width: 100%;*/
+}
+
+footer a {
 	color: grey;
 }

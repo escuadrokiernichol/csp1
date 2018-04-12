@@ -57,80 +57,34 @@ body {
 
 
 
-
-
-
-#welcome-carousel {
-		margin: 0;
-		padding: 0;
-		height: 400px;
-		max-height: 400px;
-		width: 100%;
-}
-
-/*.vegans {
-		height: 100%;
-		width: 100%;
-}
-*/
-#carousel-sliders {
-	height: 100%;
-	width: 100%;
-}
-
-.navbar-toggle .icon-bar {
-	width: 22px;
-	transition: all .5s;
-}
-
-#view-recipe {
-/*	width: 100%;
-	margin-top: 5px;*/
-	/*margin-bottom: 10px;*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /*padding: 10px;*/
 }
 
 
-footer#footer {
+
+footer {
+	/*position: fixed;*/
+    left: 0;
+    bottom: 0;
 	background-color: black;
+	color: grey;
+	width: 100%;
+	/*z-index: 999;*/
+}
+
+footer a {
 	color: grey;
 }
 
 
 @media only screen and (max-width: 400px) {
 
+#welcome-carousel-2,
+#welcome-carousel-3,
+#welcome-carousel-4 {
+	display: none;
 }
-
-
-@media only screen and (min-width: 401px) and (max-width: 767) {
-
-#welcome-carousel .carousel .slide {
-	height: 800px;
-	max-height: 800px;
-}
-
-.carousel-inner > .item > img {
-/*	height: 100%;
-	width: 100%;*/
-}
-
-}
-
-
-@media only screen and (min-width: 768px) {
-
-#welcome-carousel .carousel .slide {
-	height: 500px;
-	max-height: 500px;
-
-}
-
-/*.carousel-inner > .item > img {
-	height: 100%;
-	width: 100%;
-}*/
-
-#vegetarian {
-
-}
-
 }

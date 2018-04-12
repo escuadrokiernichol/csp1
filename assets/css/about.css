@@ -5,6 +5,7 @@
 
 body {
 	padding-top: 60px;
+	height: 100vh;
 }
 
 .navbar-toggle {
@@ -61,9 +62,17 @@ body {
 /*	position: relative;
 	top: 100px;
 	left: 100px;*/
+	margin-bottom: 100px;
 }
 
 footer {
+	position: fixed;
+    bottom: 0;
 	background-color: black;
+	color: grey;
+	width: 100%;
+}
+
+footer a {
 	color: grey;
 }
