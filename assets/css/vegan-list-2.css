@@ -1,18 +1,5 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-
 body {
-	background-image: url("img/bg-vegi.jpg");
-	height: 100%;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-    padding-top: 60px;
+	padding-top: 60px;
 }
 
 .navbar-toggle {
@@ -56,25 +43,32 @@ body {
 		transform: rotate(0);
 }
 
-#meatlover-cont {
+
+/*.recipe-img > .row > img {
+	width: 100%;
+	margin-bottom: 15px;
 
 }
-
-
-
-.cont-bg {
-	padding-top: 15px;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	/*margin-bottom: 15px;*/
+*/
+.recipe-inner-title {
+	margin-top: 0;
 }
 
+h5#star-rating > .checked {
+	color: orange;
+}
 
-.jumbotron{
-    position: relative;
-    padding:0 !important;
-    margin-top:30px !important;
-    margin-bottom: 30 !important;
+#well-cont {
+	margin-bottom: 0;
+}
+
+.user-dp {
+	height: 70px;
+	width: 70px;
+}
+
+#user-comment {
+	height: 100px;
 }
 
 

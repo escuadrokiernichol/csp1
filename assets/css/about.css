@@ -5,7 +5,7 @@
 
 body {
 	padding-top: 60px;
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
 .navbar-toggle {
@@ -50,10 +50,6 @@ body {
 }
 
 
-#about-pad .container {
-	padding-bottom: 20px;
-}
-
 #about-img-1 {
 	height: 200px;
 	width: 200px;
@@ -66,13 +62,37 @@ body {
 }
 
 footer {
-	position: fixed;
+    position: relative;
     bottom: 0;
-	background-color: black;
-	color: grey;
-	width: 100%;
-}
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-top: 40px; 
+  }
 
 footer a {
 	color: grey;
+}
+
+
+/*	  nav {
+	    display: flex;
+	    list-style: none;
+	  }*/
+
+
+
+
+  @media only screen and (max-width: 400px) {
+
+#welcome-carousel-2,
+#welcome-carousel-3,
+#welcome-carousel-4 {
+	display: none;
+}
+
+footer {
+	height: 140px;
+}
+
 }
