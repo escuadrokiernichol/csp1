@@ -78,7 +78,7 @@
 					var mapOptions = 
 					{
 					    center: new google.maps.LatLng(14.6328, 121.0438), 
-					    zoom: 15
+					    zoom: 20
 					    // center: philippines 
 					};
 					var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -111,25 +111,25 @@
 				<form id="modal-upload-form">
 					<div class="form-group">
 						<label for="recipe-owner">Recipe Owner:</label>
-						<input type="text" name="owner-name" id="recipe-owner" class="form-control">
+						<input type="text" name="owner-name" id="recipe-owner" class="form-control" required="">
 					</div>
 					<div class="form-group">
 						<label for="recipe-owner-email">Owner Email:</label>
-						<input type="email" name="owner-email" id="recipe-owner-email" class="form-control">
+						<input type="email" name="owner-email" id="recipe-owner-email" class="form-control" required="">
 					</div>
 					<div class="form-group">
 						<label for="recipe-name">Recipe Name</label>
-						<input type="text" name="recipe-title" id="recipe-name" class="form-control">
+						<input type="text" name="recipe-title" id="recipe-name" class="form-control" required="">
 					</div>
 					<div class="form-group">	
 						<label for="recipe-direction">How to Cook</label>
-						<textarea name="recipe-how-to-cook" id="recipe-direction" class="form-control"></textarea>
+						<textarea name="recipe-how-to-cook" id="recipe-direction" class="form-control" required=""></textarea>
 
 						<label for="owner-uploaded-variety">Variety</label>
 						
 						<br>
 						
-						 <select name="variety" id="owner-uploaded-variety">
+						 <select name="variety" id="owner-uploaded-variety" required="">
 						 	<option value="1">Meat</option>
 						 	<option value="2">Vegi</option>
 						 	<option value="3" selected="">Pasta</option>
@@ -150,7 +150,9 @@
 	<footer id="footer" class="text-center">	
 			<span>&copy; Owner 2018</span><br>
 			<span>
-			Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asses/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.
+			<p>Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asses/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.
+
+			CC0 (Creative Common Zero)-> License -> Free assets (images, audio, text etc)</p>
 			</span><br>
 			<span><a href="#"><i class="fab fa-facebook-f" id="social-media-1"></i></a></span>
 			<span><a href="#"><i class="fab fa-twitter" id="social-media-2"></i></a></span>
