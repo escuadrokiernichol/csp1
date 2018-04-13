@@ -65,7 +65,6 @@ h5#star-rating > .checked {
 	height: 100px;
 }
 
-
 footer {
     position: relative;
     bottom: 0;
@@ -78,15 +77,6 @@ footer {
 footer a {
 	color: grey;
 }
-
-
-/*	  nav {
-	    display: flex;
-	    list-style: none;
-	  }*/
-
-
-
 
   @media only screen and (max-width: 400px) {
 

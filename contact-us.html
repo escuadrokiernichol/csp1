@@ -42,6 +42,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
+				<div class="well">
 				<h3>Contact Us:</h3>
 				<form>
 					<div class="form-group">
@@ -56,12 +57,13 @@
 						<label for="user-number">Telephone</label>
 						<input type="text" class="form-control" name="user-number" id="user-number">
 					</div>
-					<div class="form">
+					<div>
 						<label id="user-message">Message</label>
 						<textarea class="form-control" name="user-message" id="user-message" required=""></textarea>
 					</div>
-					<button type="submit" class="btn">Send Message</button>
+					<button type="submit" class="btn" id="contact-us-submit-btn">Send Message</button>
 				</form>
+				</div>
 			</div>
 			<div class="col-md-6">
 				<h3>Caswynn</h3>
@@ -87,38 +89,61 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="well">
+				<h3>Want to share a recipe?</h3>
+					<button class="btn" data-toggle="modal" data-target="#upload-recipe-form">Upload Recipe</button>
+				</div>
+			</div>	
+		</div>		
 	</div>
 
+	<!-- large modal -->
+	<div class="modal fade" id="upload-recipe-form" tabindex="-1" role="" aria-labelledby="upload-form" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<h3>Please Fill out this form:</h3>
+				<form id="modal-upload-form">
+					<div class="form-group">
+						<label for="recipe-owner">Recipe Owner:</label>
+						<input type="text" name="owner-name" id="recipe-owner" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="recipe-owner-email">Owner Email:</label>
+						<input type="email" name="owner-email" id="recipe-owner-email" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="recipe-name">Recipe Name</label>
+						<input type="text" name="recipe-title" id="recipe-name" class="form-control">
+					</div>
+					<div class="form-group">	
+						<label for="recipe-direction">How to Cook</label>
+						<textarea name="recipe-how-to-cook" id="recipe-direction" class="form-control"></textarea>
 
+						<label for="owner-uploaded-variety">Variety</label>
+						
+						<br>
+						
+						 <select name="variety" id="owner-uploaded-variety">
+						 	<option value="1">Meat</option>
+						 	<option value="2">Vegi</option>
+						 	<option value="3" selected="">Pasta</option>
+						 </select>
 
+						<br>
 
+						 <label for="user-uploaded-image">Upload Image/Video</label>
+						 <input type="file" name="owner-uploaded-recipe" id="user-uploaded-image">
+					</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+					<button type="submit" name="owner-special-recipe" class="btn" id=modal-form-submit>Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
 
 	<footer id="footer" class="text-center">	
-		<nav>
 			<span>&copy; Owner 2018</span><br>
 			<span>
 			Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asses/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.
@@ -127,11 +152,7 @@
 			<span><a href="#"><i class="fab fa-twitter" id="social-media-2"></i></a></span>
 			<span><a href="#"><i class="fab fa-instagram" id="social-media-3"></i></a></span>
 			<span><a href="#"><i class="fab fa-youtube-square" id="social-media-4"></i></a><span>
-		</nav>
 	</footer> <!-- endFooter -->
-
-
-
 
 	<!-- insert bootstrap jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -142,10 +163,6 @@
 	<!-- insert font awesome -->
 	<script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
-
- 	<!-- insert Google API for maps -->
-<!-- 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD82iMfHh8l8Hv8sE6zrSuTTSd5HCp_7tA&callback=initMap"
- 	type="text/javascript"></script> -->
  	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD82iMfHh8l8Hv8sE6zrSuTTSd5HCp_7tA&callback=myMap"></script>
  </body>
  </html>

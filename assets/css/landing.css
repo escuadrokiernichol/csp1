@@ -10,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /*padding-top: 300px;*/
 }
 
 .navbar-toggle {
@@ -66,8 +65,6 @@ div#height {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0.5);
-/*	height: 20vh;
-	width: 20vh;*/
 }
 
 

@@ -3,7 +3,6 @@
 	padding: 0;
 }
 
-
 body {
 	background-image: url("img/pasta-bg-2.jpg");
 	height: 100%;
@@ -11,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
     padding-top: 60px;
 }
 
@@ -56,13 +54,15 @@ body {
 		transform: rotate(0);
 }
 
+#pasta-cont > #content-bg > .cont-bg {
+	height: 600px;
+}
+
 .cont-bg {
 	padding-top: 15px;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-	/*margin-bottom: 15px;*/
 }
-
 
 .jumbotron{
     position: relative;
@@ -70,7 +70,6 @@ body {
     margin-top:30px !important;
     margin-bottom: 30 !important;
 }
-
 
 footer {
     position: relative;
@@ -84,15 +83,6 @@ footer {
 footer a {
 	color: grey;
 }
-
-
-/*	  nav {
-	    display: flex;
-	    list-style: none;
-	  }*/
-
-
-
 
   @media only screen and (max-width: 400px) {
 

@@ -56,19 +56,15 @@ body {
 		transform: rotate(0);
 }
 
-#meatlover-cont {
-
+#meatlover-cont > #content-bg > .cont-bg {
+	height: 600px;
 }
-
-
 
 .cont-bg {
 	padding-top: 15px;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-	/*margin-bottom: 15px;*/
 }
-
 
 .jumbotron{
     position: relative;
@@ -76,7 +72,6 @@ body {
     margin-top:30px !important;
     margin-bottom: 30 !important;
 }
-
 
 footer {
     position: relative;
@@ -90,15 +85,6 @@ footer {
 footer a {
 	color: grey;
 }
-
-
-/*	  nav {
-	    display: flex;
-	    list-style: none;
-	  }*/
-
-
-
 
   @media only screen and (max-width: 400px) {
 
